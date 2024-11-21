@@ -48,33 +48,50 @@ bun start
 ```plaintext
 brisa-task-manager/
 │
-├── src/
-│   ├── components
-│   |   ├── counter-server.tsx
-│   |   ├── footer.tsx
-│   |   └── navigator.tsx
-│   ├── layout
-│   |   └── index.tsx
-│   ├── pages
-│   |   ├── about/
-│   |   ├── index.test.tsx
-│   |   └── index.tsx
-│   ├── public
-│   |   └── brisa.svg
-│   ├── styles
-│   |   ├── footer.css
-│   |   ├── nav.css
-│   |   └── style.css
-│   └── web-components
-│       └── counter-client.tsx
-|
-├── .gitignore
-├── bun.lockb
-├── bunfig.toml
-├── package.json                 # Файл зависимостей проекта
-├── tsconfig.json
-└── README.md                    # Документация по проекту
+├── src/                       # Исходный код приложения
+│   ├── components/            # Компоненты интерфейса
+│   │   ├── counter-server.tsx  # Компонент сервера счётчика
+│   │   ├── footer.tsx         # Компонент футера
+│   │   └── navigator.tsx      # Компонент навигации
+│   ├── layout/                # Макеты страниц
+│   │   └── index.tsx          # Главный макет
+│   ├── pages/                 # Страницы приложения
+│   │   ├── about/             # Страница "О нас"
+│   │   |   └── index.tsx
+│   │   ├── index.test.tsx     # Тесты для главной страницы
+│   │   └── index.tsx          # Главная страница
+│   ├── public/                # Статические файлы
+│   │   └── brisa.svg          # Логотип или иконка
+│   ├── styles/                # Стили приложения
+│   │   ├── footer.css         # Стили для футера
+│   │   ├── nav.css            # Стили для навигации
+│   │   └── style.css          # Общие стили
+│   └── web-components/        # Веб-компоненты
+│       └── counter-client.tsx # Компонент для клиента счётчика
+│
+├── .gitignore                 # Игнорируемые файлы для Git
+├── bun.lockb                  # Заблокированные зависимости
+├── bunfig.toml                # Конфигурация Bun
+├── package.json               # Зависимости проекта
+├── tsconfig.json              # Конфигурация TypeScript
+└── README.md                  # Документация по проекту
 ```
+
+### ▶️ Описание
+
+- src/: Каталог с исходным кодом приложения.
+
+- components/: Переиспользуемые компоненты, такие как навигация, футер и счётчик.
+
+- layout/: Макеты для страниц.
+
+- pages/: Страницы приложения, включая тесты.
+
+- public/: Статические ресурсы, например, изображения.
+
+- styles/: Стили для оформления.
+
+- web-components/: Веб-компоненты, работающие на клиенте.
 
 ---
 
