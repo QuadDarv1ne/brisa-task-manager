@@ -18,10 +18,19 @@ Project created with [Brisa](https://github.com/brisa-build/brisa).
 
 ## Getting Started
 
-### Installation
+### 🚀 Установка
 
+### 1. Клонировать репозиторий
 ```bash
-bun install
+git clone https://github.com/username/brisa-task-manager.git
+```
+
+### 2. Установить зависимости
+```bash
+cd brisa-task-manager
+npm install -g bun
+bun init
+bun add brisa
 ```
 
 ### Development
